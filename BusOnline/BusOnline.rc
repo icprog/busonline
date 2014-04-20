@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\BusOnline.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BusOnline.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BUSONLINE_DIALOG DIALOG  0, 0, 474, 245
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "巴士在线"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_EDIT1,349,1,105,222,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | NOT WS_TABSTOP
+    LTEXT           "主机号",IDC_BUSCODE,32,1,57,8
+    LTEXT           "软件版本",IDC_VERNO,44,15,46,8
+    LTEXT           "主机号:",IDC_STATIC,7,1,26,8
+    LTEXT           "软件版本:",IDC_STATIC,7,14,30,8
+    LTEXT           "GPS:",IDC_STATIC,7,26,16,8
+    LTEXT           "CAN:",IDC_STATIC,54,26,22,8
+    LTEXT           "发送到服务器",IDC_TCPSEND,97,32,232,98
+    LTEXT           "服务器IP",IDC_SERVERIP,133,1,55,8
+    LTEXT           "端口",IDC_PORT,133,15,48,8
+    LTEXT           "服务器IP:",IDC_STATIC,97,1,32,8
+    LTEXT           "端口：",IDC_STATIC,97,14,22,8
+    LTEXT           "主机IP",IDC_LOCALIP,228,1,67,8
+    LTEXT           "主机IP:",IDC_STATIC,200,1,26,8
+    LTEXT           "接收字节",IDC_GPSRECVBYTES,7,47,42,9
+    LTEXT           "发送字节",IDC_GPSSENDBYTES,7,36,35,9
+    LTEXT           "接收字节",IDC_CANRECVBYTES,54,47,39,9
+    LTEXT           "发送字节",IDC_CANSENDBYTES,54,36,35,9
+    LTEXT           "SSI：",IDC_STATIC,7,62,24,8
+    LTEXT           "接收字节",IDC_SSIRECVBYTES,7,83,39,9
+    LTEXT           "发送字节",IDC_SSISENDBYTES,7,72,35,9
+    PUSHBUTTON      "UpdateSSI",IDC_UPDATESSI,241,209,50,14
+    LTEXT           "FAN:",IDC_STATIC,54,62,16,8
+    LTEXT           "接收字节",IDC_FANRECVBYTES,54,83,39,9
+    LTEXT           "发送字节",IDC_FANSENDBYTES,54,72,35,9
+    LTEXT           "GAS:",IDC_STATIC,7,101,16,8
+    LTEXT           "接收字节",IDC_GASRECVBYTES,7,122,39,9
+    LTEXT           "发送字节",IDC_GASSENDBYTES,7,111,35,9
+    LTEXT           "已用物理内存:",IDC_STATIC,7,212,44,8
+    LTEXT           "总物理内存:",IDC_STATIC,7,223,38,8
+    LTEXT           "已用物理内存",IDC_MEMUSED,54,212,42,8
+    LTEXT           "总物理内存",IDC_MEMTOTAL,54,223,35,8
+    LTEXT           "DB:",IDC_STATIC,54,101,12,8
+    LTEXT           "接收字节",IDC_DBRECVBYTES,54,122,39,9
+    LTEXT           "发送字节",IDC_DBSENDBYTES,54,111,35,9
+    PUSHBUTTON      "生成打铃",IDC_GENATERING,186,209,50,14
+    LTEXT           "TCP:",IDC_STATIC,7,146,16,8
+    LTEXT           "接收字节",IDC_TCPRECVBYTES,7,167,39,9
+    LTEXT           "发送字节",IDC_TCPSENDBYTES,7,156,35,9
+    LTEXT           "启动时间",IDC_BOOTTIME,348,228,106,8
+    PUSHBUTTON      "关闭",IDC_CLOSE,296,209,50,14
+    LTEXT           "打铃数据",IDC_RINGDATA,280,142,62,62
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "BusOnline.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "BusOnline.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BUSONLINE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 454
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\BusOnline.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

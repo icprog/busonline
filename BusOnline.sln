@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BusOnline", "BusOnline\BusOnline.vcproj", "{3C408BEF-3798-47EE-B62A-303D12CFAA0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|SDK_8900_LC (ARMV4I) = Debug|SDK_8900_LC (ARMV4I)
+		Release|SDK_8900_LC (ARMV4I) = Release|SDK_8900_LC (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Debug|SDK_8900_LC (ARMV4I).ActiveCfg = Debug|SDK_8900_LC (ARMV4I)
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Debug|SDK_8900_LC (ARMV4I).Build.0 = Debug|SDK_8900_LC (ARMV4I)
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Debug|SDK_8900_LC (ARMV4I).Deploy.0 = Debug|SDK_8900_LC (ARMV4I)
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Release|SDK_8900_LC (ARMV4I).ActiveCfg = Release|SDK_8900_LC (ARMV4I)
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Release|SDK_8900_LC (ARMV4I).Build.0 = Release|SDK_8900_LC (ARMV4I)
+		{3C408BEF-3798-47EE-B62A-303D12CFAA0B}.Release|SDK_8900_LC (ARMV4I).Deploy.0 = Release|SDK_8900_LC (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
